@@ -4,4 +4,4 @@ steps:
   - command: "buildkite-agent pipeline upload"
     label: ":pipeline:"
     agents:
-      - queue=${QUEUE:-default}
+      - queue=buildkite-ios-macmini
